@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn more about Nawaz VK - Computer Science Engineering Student passionate about web development and problem solving.">
+  <title>About | Nawaz VK Portfolio</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="javascript.svg">
+</head>
+<body>
+  <!-- Page Transition Loader -->
+  <div class="page-transition">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress"></div>
+
+  <!-- Aurora Background -->
+  <div class="aurora-bg">
+    <div class="aurora-blob aurora-blob-1"></div>
+    <div class="aurora-blob aurora-blob-2"></div>
+    <div class="aurora-blob aurora-blob-3"></div>
+  </div>
+
+  <!-- Particle Canvas -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- Mouse Spotlight -->
+  <div class="mouse-spotlight"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <span>&lt;</span>Nawaz<span>/&gt;</span>
+      </a>
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link active">About</a></li>
+        <li><a href="skills.html" class="nav-link">Skills</a></li>
+        <li><a href="projects.html" class="nav-link">Projects</a></li>
+        <li><a href="coding-profiles.html" class="nav-link">Profiles</a></li>
+        <li><a href="certificates.html" class="nav-link">Certificates</a></li>
+        <li><a href="resume.html" class="nav-link">Resume</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- About Section -->
+  <section class="section">
+    <div class="section-container">
+      <!-- Section Header -->
+      <div class="section-header reveal">
+        <span class="section-badge">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+            <circle cx="12" cy="7" r="4"></circle>
+          </svg>
+          About Me
+        </span>
+        <h2 class="section-title">Get To Know <span>Me Better</span></h2>
+        <p class="section-description">
+          Passionate about creating meaningful digital experiences through code
+        </p>
+      </div>
+
+      <!-- About Intro -->
+      <div class="about-intro">
+        <div class="about-image-wrapper reveal">
+          <div class="hero-image-wrapper">
+            <div class="hero-image-bg"></div>
+            <div class="hero-image-container" style="border-radius: 24px;">
+              <!-- <div class="profile-placeholder" style="border-radius: 24px;">
+                <svg width="100" height="100" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+              </div> -->
+              
+              <img src="profile.jpeg" alt="Nawaz VK" style="width: 100%; height: 100%; object-fit: cover; border-radius: 24px;">
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="about-content reveal reveal-delay-1">
+          <h3>Nawaz VK</h3>
+          <p>
+            I'm a Computer Science Engineering student from Kandukur, Andhra Pradesh, India.
+            I'm passionate about technology and its potential to solve real-world problems.
+            My journey in programming started with curiosity and has grown into a genuine love
+            for building things that make a difference.
+          </p>
+          <p>
+            As an aspiring software developer, I'm constantly learning and exploring new
+            technologies. I believe in writing clean, efficient code and creating user-friendly
+            applications. Web development fascinates me because it combines creativity with
+            technical problem-solving.
+          </p>
+          <p>
+            Beyond coding, I enjoy solving algorithmic problems and participating in coding
+            challenges. I'm also exploring AI and Prompt Engineering, believing these technologies
+            will shape the future of software development.
+          </p>
+        </div>
+      </div>
+
+      <!-- Career Objective -->
+      <div class="card reveal" style="margin-top: 40px; padding: 30px;">
+        <h3 style="color: var(--primary); margin-bottom: 15px;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align: middle; margin-right: 10px;">
+            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+          </svg>
+          Career Objective
+        </h3>
+        <p style="color: var(--text-secondary); line-height: 1.8; font-size: 1.05rem;">
+          To secure a challenging position in a reputable organization where I can expand my knowledge,
+          learn, and grow while contributing to the company's success. I aim to leverage my technical
+          skills and creativity to build innovative solutions that create value for users and businesses.
+          I aspire to become a skilled software developer who not only writes code but also architects
+          solutions that positively impact people's lives.
+        </p>
+      </div>
+
+      <!-- Education Timeline -->
+      <h3 style="text-align: center; margin-top: 60px; margin-bottom: 30px; font-size: 1.5rem;" class="reveal">
+        <span style="color: var(--primary);">Education</span> Timeline
+      </h3>
+
+      <div class="timeline reveal reveal-delay-1">
+        <div class="timeline-item">
+          <span class="timeline-date">2024 - Present</span>
+          <h4 class="timeline-title">B.Tech in Computer Science Engineering</h4>
+          <p class="timeline-subtitle">Engineering College</p>
+          <p class="timeline-description">
+            Currently pursuing Bachelor's degree in Computer Science Engineering with focus on
+            software development, data structures, algorithms, and web technologies.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-date">2022 - 2024</span>
+          <h4 class="timeline-title">Higher Secondary Education (Class XII)</h4>
+          <p class="timeline-subtitle">Senior Secondary School</p>
+          <p class="timeline-description">
+            Completed higher secondary education with Science stream (PCM) with Computer Science
+            as an additional subject.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-date">2021 - 2022</span>
+          <h4 class="timeline-title">Secondary Education (Class X)</h4>
+          <p class="timeline-subtitle">High School</p>
+          <p class="timeline-description">
+            Completed secondary education with distinction, developing foundational skills
+            in mathematics and science.
+          </p>
+        </div>
+      </div>
+
+      <!-- Strengths -->
+      <h3 style="text-align: center; margin-top: 60px; margin-bottom: 10px; font-size: 1.5rem;" class="reveal">
+        My <span style="color: var(--primary);">Strengths</span>
+      </h3>
+      <p style="text-align: center; color: var(--text-muted); margin-bottom: 30px;" class="reveal">
+        What makes me effective as a developer and team member
+      </p>
+
+      <div class="strengths-grid">
+        <div class="card strength-card reveal reveal-delay-1">
+          <div class="card-glow"></div>
+          <div class="strength-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+              <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
+            </svg>
+          </div>
+          <h4 class="strength-title">Quick Learner</h4>
+          <p class="strength-description">Rapidly adapt to new technologies and frameworks</p>
+        </div>
+
+        <div class="card strength-card reveal reveal-delay-2">
+          <div class="card-glow"></div>
+          <div class="strength-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="8" x2="12" y2="12"></line>
+              <line x1="12" y1="16" x2="12.01" y2="16"></line>
+            </svg>
+          </div>
+          <h4 class="strength-title">Problem Solver</h4>
+          <p class="strength-description">Analytical thinking to find efficient solutions</p>
+        </div>
+
+        <div class="card strength-card reveal reveal-delay-3">
+          <div class="card-glow"></div>
+          <div class="strength-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+            </svg>
+          </div>
+          <h4 class="strength-title">Team Player</h4>
+          <p class="strength-description">Collaborative approach with excellent communication</p>
+        </div>
+
+        <div class="card strength-card reveal reveal-delay-4">
+          <div class="card-glow"></div>
+          <div class="strength-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+          </div>
+          <h4 class="strength-title">Continuous Learner</h4>
+          <p class="strength-description">Always exploring new skills and knowledge</p>
+        </div>
+
+        <div class="card strength-card reveal reveal-delay-5">
+          <div class="card-glow"></div>
+          <div class="strength-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+              <path d="M21 12a9 9 0 1 1-6.219-8.56"></path>
+            </svg>
+          </div>
+          <h4 class="strength-title">Adaptable</h4>
+          <p class="strength-description">Flexible in dynamic environments and changing requirements</p>
+        </div>
+
+        <div class="card strength-card reveal reveal-delay-6">
+          <div class="card-glow"></div>
+          <div class="strength-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+              <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+              <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+              <line x1="6" y1="1" x2="6" y2="4"></line>
+              <line x1="10" y1="1" x2="10" y2="4"></line>
+              <line x1="14" y1="1" x2="14" y2="4"></line>
+            </svg>
+          </div>
+          <h4 class="strength-title">Self-Motivated</h4>
+          <p class="strength-description">Driven to achieve goals with minimal supervision</p>
+        </div>
+      </div>
+
+      <!-- Statistics -->
+      <h3 style="text-align: center; margin-top: 60px; margin-bottom: 10px; font-size: 1.5rem;" class="reveal">
+        <span style="color: var(--primary);">Achievements</span> in Numbers
+      </h3>
+
+      <div class="stats-grid">
+        <div class="card stat-card reveal reveal-delay-1">
+          <div class="stat-number counter" data-target="10">0+</div>
+          <div class="stat-label">Projects Completed</div>
+        </div>
+
+        <div class="card stat-card reveal reveal-delay-2">
+          <div class="stat-number counter" data-target="15">0+</div>
+          <div class="stat-label">Certificates Earned</div>
+        </div>
+
+        <div class="card stat-card reveal reveal-delay-3">
+          <div class="stat-number counter" data-target="200">0+</div>
+          <div class="stat-label">Coding Problems Solved</div>
+        </div>
+
+        <div class="card stat-card reveal reveal-delay-4">
+          <div class="stat-number counter" data-target="100">0+</div>
+          <div class="stat-label">Hours of Coding</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" aria-label="Back to top">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Scripts -->
+  <script type="module" src="js/script.js"></script>
+</body>
+</html>

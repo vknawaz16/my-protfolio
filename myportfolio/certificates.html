@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse Nawaz VK's collection of certificates and achievements in various technologies and platforms.">
+  <title>Certificates | Nawaz VK Portfolio</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="javascript.svg">
+</head>
+<body>
+  <!-- Page Transition Loader -->
+  <div class="page-transition">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress"></div>
+
+  <!-- Aurora Background -->
+  <div class="aurora-bg">
+    <div class="aurora-blob aurora-blob-1"></div>
+    <div class="aurora-blob aurora-blob-2"></div>
+    <div class="aurora-blob aurora-blob-3"></div>
+  </div>
+
+  <!-- Particle Canvas -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- Mouse Spotlight -->
+  <div class="mouse-spotlight"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <span>&lt;</span>Nawaz<span>/&gt;</span>
+      </a>
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="skills.html" class="nav-link">Skills</a></li>
+        <li><a href="projects.html" class="nav-link">Projects</a></li>
+        <li><a href="coding-profiles.html" class="nav-link">Profiles</a></li>
+        <li><a href="certificates.html" class="nav-link active">Certificates</a></li>
+        <li><a href="resume.html" class="nav-link">Resume</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Certificates Section -->
+  <section class="section">
+    <div class="section-container">
+      <!-- Section Header -->
+      <div class="section-header reveal">
+        <span class="section-badge">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="8" r="6"></circle>
+            <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/>
+          </svg>
+          Certificates
+        </span>
+        <h2 class="section-title">My <span>Certificates</span></h2>
+        <p class="section-description">
+          A collection of certificates showcasing my continuous learning journey
+        </p>
+      </div>
+
+      <!-- Certificate Gallery -->
+      <!-- To add new certificates: Place images in assets/certificates/ folder and create certificate-card below -->
+      <div class="certificates-grid">
+
+        <!-- Certificate 1 -->
+        <div class="card certificate-card reveal reveal-delay-1">
+          <div class="card-glow"></div>
+          <div style="width: 100%; height: 220px; background: linear-gradient(135deg, #1a1a2e, #16213e); display: flex; align-items: center; justify-content: center;">
+            <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="1.5">
+              <circle cx="12" cy="8" r="6"></circle>
+              <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/>
+            </svg>
+          </div>
+          <div class="certificate-overlay">
+            <h4 class="certificate-title">Python for Data Science</h4>
+            <p class="certificate-issuer">Coursera</p>
+          </div>
+        </div>
+
+        <!-- Certificate 2 -->
+        <div class="card certificate-card reveal reveal-delay-2">
+          <div class="card-glow"></div>
+          <div style="width: 100%; height: 220px; background: linear-gradient(135deg, #0f0f23, #1a1a3e); display: flex; align-items: center; justify-content: center;">
+            <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="var(--secondary)" stroke-width="1.5">
+              <circle cx="12" cy="8" r="6"></circle>
+              <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/>
+            </svg>
+          </div>
+          <div class="certificate-overlay">
+            <h4 class="certificate-title">Web Development Bootcamp</h4>
+            <p class="certificate-issuer">Udemy</p>
+          </div>
+        </div>
+
+        <!-- Certificate 3 -->
+        <div class="card certificate-card reveal reveal-delay-3">
+          <div class="card-glow"></div>
+          <div style="width: 100%; height: 220px; background: linear-gradient(135deg, #1e3a5f, #0d1b2a); display: flex; align-items: center; justify-content: center;">
+            <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.5">
+              <circle cx="12" cy="8" r="6"></circle>
+              <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/>
+            </svg>
+          </div>
+          <div class="certificate-overlay">
+            <h4 class="certificate-title">SQL Fundamentals</h4>
+            <p class="certificate-issuer">HackerRank</p>
+          </div>
+        </div>
+
+        <!-- Certificate 4 -->
+        <div class="card certificate-card reveal reveal-delay-4">
+          <div class="card-glow"></div>
+          <div style="width: 100%; height: 220px; background: linear-gradient(135deg, #2d1b4e, #1a1a2e); display: flex; align-items: center; justify-content: center;">
+            <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="1.5">
+              <circle cx="12" cy="8" r="6"></circle>
+              <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/>
+            </svg>
+          </div>
+          <div class="certificate-overlay">
+            <h4 class="certificate-title">JavaScript Algorithms</h4>
+            <p class="certificate-issuer">freeCodeCamp</p>
+          </div>
+        </div>
+
+        <!-- Certificate 5 -->
+        <div class="card certificate-card reveal reveal-delay-5">
+          <div class="card-glow"></div>
+          <div style="width: 100%; height: 220px; background: linear-gradient(135deg, #1a2332, #0f1624); display: flex; align-items: center; justify-content: center;">
+            <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="var(--secondary)" stroke-width="1.5">
+              <circle cx="12" cy="8" r="6"></circle>
+              <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/>
+            </svg>
+          </div>
+          <div class="certificate-overlay">
+            <h4 class="certificate-title">Problem Solving Basic</h4>
+            <p class="certificate-issuer">HackerRank</p>
+          </div>
+        </div>
+
+        <!-- Certificate 6 -->
+        <div class="card certificate-card reveal reveal-delay-6">
+          <div class="card-glow"></div>
+          <div style="width: 100%; height: 220px; background: linear-gradient(135deg, #1a1a2e, #16213e); display: flex; align-items: center; justify-content: center;">
+            <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.5">
+              <circle cx="12" cy="8" r="6"></circle>
+              <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/>
+            </svg>
+          </div>
+          <div class="certificate-overlay">
+            <h4 class="certificate-title">Java Programming</h4>
+            <p class="certificate-issuer">Coursera</p>
+          </div>
+        </div> 
+
+        <!-- certificate 1 -->
+         <!-- Microsoft Learn Certificate -->
+<div class="card certificate-card reveal reveal-delay-7">
+    <div class="card-glow"></div>
+
+    <img
+        src="microsoft.jpeg"
+        alt="Microsoft Learn Certificate"
+        class="certificate-image"
+    >
+
+    <div class="certificate-overlay">
+        <h4 class="certificate-title">
+            Career Essentials in Generative AI
+        </h4>
+        <p class="certificate-issuer">
+            Microsoft Learn & LinkedIn
+        </p>
+    </div>
+</div>
+
+        <!-- Add more certificates here by copying the pattern above -->
+        <!-- Replace placeholder divs with: <img src="assets/certificates/certificate-name.jpg" alt="Certificate Name" class="certificate-image"> -->
+
+      </div>
+
+      <!-- Info Box -->
+      <div class="card reveal" style="margin-top: 40px; padding: 30px; text-align: center;">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="1.5" style="margin: 0 auto 15px;">
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="12" y1="16" x2="12" y2="12"></line>
+          <line x1="12" y1="8" x2="12.01" y2="8"></line>
+        </svg>
+        <h4 style="margin-bottom: 10px; color: var(--primary);">Adding New Certificates</h4>
+        <p style="color: var(--text-secondary); max-width: 500px; margin: 0 auto; line-height: 1.7;">
+          To add new certificates, simply place your certificate images in the
+          <code style="background: rgba(139, 92, 246, 0.2); padding: 2px 8px; border-radius: 4px;">assets/certificates/</code>
+          folder and create new certificate-card elements. The portfolio will automatically display them.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Certificate Modal -->
+  <div class="modal-overlay">
+    <button class="modal-close">&times;</button>
+    <div class="modal-content"></div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" aria-label="Back to top">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Scripts -->
+  <script type="module" src="js/script.js"></script>
+</body>
+</html>

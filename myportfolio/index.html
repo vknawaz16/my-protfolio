@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nawaz VK - Computer Science Engineering Student, Web Developer, Problem Solver. Explore my portfolio showcasing projects, skills, and achievements.">
+  <meta name="keywords" content="Nawaz VK, Web Developer, Portfolio, Computer Science, Software Developer">
+  <meta name="author" content="Nawaz VK">
+  <title>Nawaz VK | Portfolio</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="javascript.svg">
+</head>
+<body>
+  <!-- Page Transition Loader -->
+  <div class="page-transition">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress"></div>
+
+  <!-- Aurora Background -->
+  <div class="aurora-bg">
+    <div class="aurora-blob aurora-blob-1"></div>
+    <div class="aurora-blob aurora-blob-2"></div>
+    <div class="aurora-blob aurora-blob-3"></div>
+  </div>
+
+  <!-- Particle Canvas -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- Mouse Spotlight -->
+  <div class="mouse-spotlight"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <span>&lt;</span>Nawaz<span>/&gt;</span>
+      </a>
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="skills.html" class="nav-link">Skills</a></li>
+        <li><a href="projects.html" class="nav-link">Projects</a></li>
+        <li><a href="coding-profiles.html" class="nav-link">Profiles</a></li>
+        <li><a href="certificates.html" class="nav-link">Certificates</a></li>
+        <li><a href="resume.html" class="nav-link">Resume</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-container">
+      <!-- Left Content -->
+      <div class="hero-content">
+        <div class="hero-badge reveal">
+          <span class="hero-badge-dot"></span>
+          Available for opportunities
+        </div>
+
+        <h1 class="hero-title reveal reveal-delay-1">
+          Hello, I'm<br>
+          <span class="hero-title-gradient">Nawaz VK</span>
+        </h1>
+
+        <p class="hero-subtitle reveal reveal-delay-2">
+          Computer Science Engineering Student
+        </p>
+
+        <div class="hero-typing reveal reveal-delay-3">
+          <span class="typing-text"></span>
+        </div>
+
+        <div class="hero-buttons reveal reveal-delay-4">
+          <a href="projects.html" class="btn btn-primary btn-magnetic">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+            </svg>
+            View Projects
+          </a>
+          <a href="assets/resume/resume.pdf" class="btn btn-secondary btn-magnetic" download>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            Download Resume
+          </a>
+          <a href="contact.html" class="btn btn-outline btn-magnetic">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            Contact Me
+          </a>
+        </div>
+
+        <div class="hero-skills reveal reveal-delay-5">
+          <span class="skill-badge">HTML</span>
+          <span class="skill-badge">CSS</span>
+          <span class="skill-badge">JavaScript</span>
+          <span class="skill-badge">Python</span>
+          <span class="skill-badge">Java</span>
+          <span class="skill-badge">SQL</span>
+        </div>
+      </div>
+
+      <!-- Right Image -->
+      <div class="hero-image reveal reveal-delay-2">
+        <div class="hero-image-wrapper">
+          <div class="hero-image-bg"></div>
+          <div class="hero-image-border"></div>
+          <div class="hero-image-container">
+            <!-- Replace with your profile image: assets/images/profile.jpg -->
+            <!-- <div class="profile-placeholder">
+              <svg width="150" height="150" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </div> -->
+            
+            <img src="profile.jpeg" alt="Nawaz VK" class="profile-image">
+            
+          </div>
+
+          <!-- Floating Icons -->
+          <div class="floating-elements">
+            <div class="floating-icon" style="color: #E37D00;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm-.7 18.1h-1.4v-1.4h1.4v1.4zm2.3-5.8c-.5.6-1.2 1-1.8 1.4v1.3h-1.4v-1.8c0-.3.1-.5.3-.6.7-.4 1.4-.9 1.9-1.5.4-.5.4-1.2 0-1.7-.3-.4-.8-.6-1.3-.6-.7 0-1.3.4-1.5 1l-.1.3H8l.1-.5c.3-1.3 1.5-2.2 2.8-2.2 1.3 0 2.5.8 2.8 2 .3 1.1 0 2.2-.8 3z"/>
+              </svg>
+            </div>
+            <div class="floating-icon" style="color: #61DAFB;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <circle cx="12" cy="12" r="2"></circle>
+                <ellipse cx="12" cy="12" rx="10" ry="4" fill="none" stroke="currentColor" stroke-width="1.5"></ellipse>
+                <ellipse cx="12" cy="12" rx="10" ry="4" fill="none" stroke="currentColor" stroke-width="1.5" transform="rotate(60 12 12)"></ellipse>
+                <ellipse cx="12" cy="12" rx="10" ry="4" fill="none" stroke="currentColor" stroke-width="1.5" transform="rotate(120 12 12)"></ellipse>
+              </svg>
+            </div>
+            <div class="floating-icon" style="color: #F7DF1E;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <rect width="24" height="24" rx="4" fill="#F7DF1E"/>
+                <text x="4" y="18" font-size="14" fill="#000" font-weight="bold">JS</text>
+              </svg>
+            </div>
+            <div class="floating-icon" style="color: #3776AB;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm-.4 5.5c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm3 13.5h-5v-1h1.5v-5H10V12h2.5v6H14v1z"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" aria-label="Back to top">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Scripts -->
+  <script type="module" src="js/script.js"></script>
+</body>
+</html>
